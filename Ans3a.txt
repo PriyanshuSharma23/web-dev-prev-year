@@ -1,0 +1,2 @@
+Differentiate between XML and HTML. Mention the properties, syntax rules of XML documents and how it is differentiated as "well-formed" and "valid"
+XML document.
