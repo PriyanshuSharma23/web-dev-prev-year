@@ -1,0 +1,44 @@
+In XML, elements are used to define and structure data, and attributes are used to provide
+additional information about elements. There are several rules that must be followed when naming
+ and using elements and attributes in XML documents:
+
+- Element names must begin with a letter or underscore, and can only contain letters, numbers,
+ underscores, hyphens, and periods. For example, the element name "customer_name" is valid, but
+  "1st_customer" is not.
+
+- Element names are case-sensitive, so "customer" is different from "Customer".
+
+- Attribute names must also begin with a letter or underscore, and can only contain letters,
+numbers, underscores, hyphens, and periods. For example, the attribute name "customer_id" is
+valid, but "1st_customer" is not.
+
+- Attribute names are also case-sensitive, so "customer_id" is different from "Customer_id".
+
+- Attribute names must be unique within the element they are associated with. For example, if an
+ attribute named "customer_id" is already used for a "customer" element, a different attribute name
+  must be used for another customer, such as "customer_number".
+
+Example:
+<customer customer_id="123456" customer_name="John Doe">
+    <address>
+        <street>123 Main St</street>
+        <city>New York</city>
+        <state>NY</state>
+        <zip>10001</zip>
+    </address>
+    <order order_id="987654">
+        <item>
+            <name>Shirt</name>
+            <quantity>1</quantity>
+            <price>19.99</price>
+        </item>
+        <item>
+            <name>Pants</name>
+            <quantity>2</quantity>
+            <price>29.99</price>
+        </item>
+    </order>
+</customer>
+In this example, the "customer" element has two attributes: "customer_id" and "customer_name".
+The "address" and "order" elements also have unique attribute names
+("street", "city", "state", "zip", "order_id", "name", "quantity", and "price").

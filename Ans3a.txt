@@ -1,2 +1,21 @@
 Differentiate between XML and HTML. Mention the properties, syntax rules of XML documents and how it is differentiated as "well-formed" and "valid"
 XML document.
+
+XML (eXtensible Markup Language) and HTML (Hypertext Markup Language) are both markup languages, meaning they are used to describe and structure data. However, there are several key differences between the two:
+
+XML is a generic markup language, whereas HTML is specifically designed for the web.
+XML allows users to define their own tags and attributes, whereas HTML has a fixed set of predefined tags and attributes.
+XML is more flexible and adaptable than HTML, and can be used for a wider range of purposes.
+Properties of XML documents:
+
+XML documents are plain text files that use markup tags to describe and structure data.
+XML tags are case-sensitive and must be properly nested.
+XML documents must have a root element that contains all other elements.
+XML documents must include a reference to a DTD (Document Type Definition) or schema that defines the elements and attributes used in the document.
+Syntax rules of XML documents:
+
+XML documents must have a single root element that encloses all other elements.
+XML elements must be properly nested, with no overlap or overlap.
+XML elements must be properly closed, with a matching opening and closing tag.
+XML attributes must be enclosed in quotation marks.
+An XML document is considered "well-formed" if it adheres to the syntax rules of XML, such as having a single root element and properly nested and closed tags. A "valid" XML document is one that is well-formed and also conforms to the rules specified in the DTD or schema. Valid XML documents are more structured and standardized than well-formed ones, and are typically used in applications where data integrity is important.

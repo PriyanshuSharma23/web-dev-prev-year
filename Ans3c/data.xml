@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="data.xsd"?>
+<scoretable>
+    <score>
+        <roll>1</roll>
+        <total>76</total>
+        <percentage>38</percentage>
+    </score>
+    <score>
+        <roll>2</roll>
+        <total>80</total>
+        <percentage>40</percentage>
+    </score>
+    <score>
+        <roll>3</roll>
+        <total>170</total>
+        <percentage>85</percentage>
+    </score>
+    <score>
+        <roll>4</roll>
+        <total>180</total>
+        <percentage>90</percentage>
+    </score>
+    <score>
+        <roll>5</roll>
+        <total>190</total>
+        <percentage>95</percentage>
+    </score>
+</scoretable>
