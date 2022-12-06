@@ -1,0 +1,49 @@
+<script>
+  //  Diff b/w == and ===
+  //
+  //     Since JS is a dynamically typed programming language, it introduced some
+  //     weird features when it was introduced such as
+  //
+
+  //   == only check value equality
+  1 == '1' // true
+  0 == false // true
+
+  //  As the JS ecosystem grew, these `features` in JS turned out to be
+  //  very bug prone, so JS added a === which also check type equality as well as value eqaulity
+  1 === '1' // fasle
+</script>
+
+<html>
+
+<head>
+  <title>Destroying button</title>
+
+</head>
+
+<body>
+
+  <button data-destroy onclick="">
+    Click me to double
+  </button>
+  <script>
+    // loads aftrer the body
+
+    const b = document.querySelector('[data-destroy]')
+    console.log(b)
+    b.onclick = function() {
+      b.remove();
+
+      document.body.innerHTML += `${createButton()} ${createButton()}`
+    }
+
+    function createButton() {
+      return `<button>
+                    Generated Button
+              </button>
+            `;
+    }
+  </script>
+</body>
+
+</html>
